@@ -1,0 +1,195 @@
+.mentor{
+    background-image: url('../../../public/images/mentor.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height:240px;
+}
+.featuesWrap{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.featuresContainer{
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    color: #ff9900;
+    font-weight: 500;
+    font-size: 46px;
+}
+.mentorFeaturesContent{
+    color: #ff9900;
+    font-size: 16px;
+}
+.icon{
+    font-size: 0.65rem;
+}
+
+
+/* Mentoring Program/Scheme */
+.edukulfancyimg{
+    position: relative;
+}
+.edukulfancyimgbg{
+    transform: translate(20px, 20px);
+    opacity: 1;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 0;
+    background-color: #4582ff;
+}
+.edukulfancyimgholder{
+    opacity: 1;
+    position: relative;
+    transform: translate(-15px, -15px);
+}
+.edukulfancyimgholder Image{
+    width: 100%;
+ 
+}
+
+
+.mentoringwrapper{
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+}
+.whymastering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whymasteringwrapper{
+    width: 1100px;
+    max-width: 90%;
+}
+.whymasteringcontent{
+    padding: 3rem 3rem;
+}
+.inner{
+    width: 30%;
+}
+.card1content{
+    width: 90%;
+}
+.card1content h2{
+    color: grey;
+}
+.card1content p {
+    color: grey;
+    font-size: 16px;
+}
+
+/* Our Student Parents Say About Us */
+.studentParentContainer{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.studentParentContainer h2{
+    width: 400px;
+    font-size: 2rem;
+    color: rgb(102, 102, 102);
+}
+.OurStudentParents p{
+    color: #868686;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.icons{
+    color: #ff9900;
+}
+.iconcontent{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.iconcontent .text{
+    line-height: .2;
+}
+.text p{
+    line-height: 1.4;
+    font-size: 15px;
+    color: grey;
+}
+
+/* How to become a mentor */
+.becomeMentor{
+    background-image: url('../../../public/images/section-bg5-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    /* height:240px; */
+}
+.becomeMentorContainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.becomeMentorWrapper{
+    padding: 2rem 0rem;
+    width: 1000px;
+    color: white;
+    max-width: 90%;
+}
+.becomeMentorText{
+    font-size: 2rem;
+    font-weight: 600;
+    width: 60%;
+}
+.becomeMentorWrapper button{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 0.7rem 2rem;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+@media only screen and (max-width:884px){
+    .card1{
+        flex-direction: column;
+    }
+    .edukulfancyimgbg{
+        display: none;
+    }
+}
+@media only screen and (max-width:445px){
+    .studentParentContainer h2{
+        font-size: 20px;
+        padding: 1rem 4rem;
+    }
+    .becomeMentorText{
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width:388px){
+    .iconcontent{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

@@ -1,0 +1,46 @@
+.reviewwrapper{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.reviewcontent{
+    display: flex;
+    flex-direction: row;
+}
+.nextbtn,.prevbtn{
+    border: none;
+    background-color: white;
+}
+.icon{
+    /* padding: 1rem; */
+    color: salmon;
+    font-size: 30px;
+    border: 1px solid salmon;
+    background-color: rgb(255, 255, 255);
+}
+.info{
+    text-align: left;
+}
+.imgcontainer{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.review img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    padding: 1rem 1rem;
+    
+}
+.imgcontainerText{
+    font-size: 14px;
+}
+.textcontent{
+    padding: 0.4rem 1.7rem;
+    font-size: 0.8rem;
+    color: grey;
+    line-height: 1.7;
+}

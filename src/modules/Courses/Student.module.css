@@ -1,0 +1,224 @@
+
+.clearfix::before{
+    clear: both;
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.whitespace{
+    height: 3rem;
+}
+.diploma{
+    background-image: url('../../../public/images/Learner.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height:240px;
+}
+
+.featuesWrap{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.featuresContainer{
+    
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    color: #ff9900;
+    font-weight: 500;
+    font-size: 46px;
+    text-align: left;
+    width: 500px;
+}
+.diplomaFeaturesContent{
+    color: #ff9900;
+    font-size: 16px;
+    padding-top: 1.4rem;
+}
+
+.diplomaMainContent{
+    background-color: rgb(255, 255, 255);
+    padding: 100px 0;
+}
+
+.icon{
+    font-size: 0.65rem;
+}
+
+/* why mastering study */
+.whymastering{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.whymasteringwrapper{
+    width: 1000px;
+}
+
+.inner{
+    border-style: solid;
+    border-color: transparent;
+    z-index: 1;
+    position: relative;
+    transition: all ease-out .2s;
+    
+}
+
+.edukulfancyimg{
+    position: relative;
+}
+.edukulfancyimgbg{
+    transform: translate(20px, 20px);
+    opacity: 1;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 0;
+    background-color: #4582ff;
+}
+.edukulfancyimgholder{
+    opacity: 1;
+    position: relative;
+    transform: translate(-15px, -15px);
+}
+.edukulfancyimgholder Image{
+    width: 100%;
+ 
+}
+
+.card1content{
+   
+    width: 100%;
+    /* text-align: left; */
+    padding-left: 20px;
+    font-size: 16px;
+    color: grey;
+}
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding-top: 7%;
+    /* padding-bottom: 7%; */ 
+}
+.card2content{
+     width: 100%;
+    /* text-align: left; */
+    padding-right: 20px;
+    font-size: 16px;
+    color: grey;
+}
+.card1content{
+    line-height: 1.6;
+}
+.card2content{
+    line-height: 1.6;
+}
+/* .edukulfancyimgbg2nd{
+    
+} */
+
+.university{
+    background-image: url('../../../public/images/testimonials-bg.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.universitywrapper{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.universitycontent{
+    width: 1000px;
+    max-width: 90%;
+    border-bottom: 1px solid grey;
+}
+.universitycontent h2{
+    font-size: 2.4rem;
+}
+.heading{
+    line-height: 0.3;
+}
+.universitycontent p{
+    font-size: 16px;
+    color: grey;
+    text-align: left;
+    line-height: 1.6;
+}
+
+/* entry div style */
+.entrywrapper{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.entrycontainer{
+    width: 1000px;
+}
+.entrycontent{
+    display: flex;
+    flex-direction: row;
+}
+.entrycontent p{
+    font-size: 16px;
+    color: grey;
+    line-height: 1.5;
+}
+.left{
+    padding: 1rem;
+}
+.right{
+    padding: 1rem;
+}
+.entry{
+    padding-bottom: 4rem;
+}
+
+
+@media only screen and (max-width:790px){
+    .featuresContainer{
+        flex-direction: column;
+    }
+    .title{
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .card1{
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .edukulfancyimgbg{
+        display: none;
+    }
+    .edukulfancyimgholder{
+        transform: translate(0px ,0px);
+    }
+    .inner{
+        background-position: center;
+    }
+    .entrycontent{
+        flex-direction: column;
+    }
+}

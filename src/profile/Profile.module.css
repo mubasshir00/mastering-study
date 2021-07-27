@@ -1,0 +1,143 @@
+.features{
+    background-image: url('../../public/images/images.jpeg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    filter:opacity(80%);
+    filter: grayscale(30%);
+}
+.icons{
+    color: #b1b1b1;
+    font-size: 90px;
+    border: 5px solid grey;
+    border-radius: 50%;
+}
+.featurescontainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+
+}
+.featureswrapper{
+    color: white;
+    width: 700px;
+
+    text-align: left;
+
+    display: inline-block;
+   /* margin: 5% 10%; */
+  margin: 20px;
+	box-shadow: 0 20px 30px rgba(0,0,0,.6);
+	border: 1px solid rgba(255,255,255,.3);
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	text-shadow:0 1px 1px rgba(0,0,0,.4);
+    transition: box-shadow .3s ease;
+}
+.content{
+    border-top: 2px solid grey;
+}
+
+
+
+/* construction */
+.hammer {
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  left: 45%;
+  top: 30%;
+  /* Transitions with browser fallbacks */
+  /* -webkit-transition: -webkit-transform .8s ease-in-out;
+   -ms-transition: -ms-transform .8s ease-in-out; */
+   /* transition: transform .8s ease-in-out; */
+   animation: animateR 4s linear infinite;;
+   
+   transform: rotate(0deg);
+}
+
+@keyframes animateR {
+    0%{
+        transform: rotate(-90deg);
+    }
+    20%{
+        transform: rotate(0deg);
+    }
+    40%{
+      transform: rotate(-90deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    80%{
+        transform: rotate(-90deg);
+    }
+}
+
+/* .hammer:hover {
+  transform:rotate(-90deg);
+ 
+} */
+
+.face {
+  height: 1rem;
+  width: 1rem;
+  background: #676767;
+  position: absolute;
+  left: 2.5rem;
+  top: 0.25rem;
+  border-radius: 2px;
+}
+
+.head {
+  height: 2rem;
+  width: 1.5rem;
+  background: #676767;
+  margin: 0 auto;
+}
+
+.head::before {
+  content: "";
+  height: 0;
+  width: 0.5rem;
+  position: absolute;
+  left: 3rem;
+  top: 0.25rem;
+  border-bottom: 1rem solid #676767;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  transform: rotate(270deg);
+}
+
+.head::after {
+  content: "";
+  height: 1rem;
+  width: 2rem;
+  box-shadow: 6px 0.5rem 0 7px #676767;
+  border-radius: 50%;
+  position: absolute;
+  right: 3rem;
+  transform: rotate(180deg);
+  top: 1rem;
+}
+
+.handle {
+  height: 8rem;
+  width: 1.5rem;
+  margin: 0 auto;
+  border-radius: 0 0 1rem 1rem;
+  background: #BA6442;
+  /* Textured wood effect */
+  background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+  linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+  linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+  linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+  background-size: 13px, 29px, 37px, 53px;
+}
+
+.sorry{
+    font-size: 60px;
+    color: red;
+}

@@ -1,0 +1,129 @@
+.diploma{
+    background-image: url('../../../public/images/featured-title-bg-1.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height:240px;
+}
+
+.featuesWrap{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.featuresContainer{
+    
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    color: #ff9900;
+    font-weight: 500;
+    font-size: 46px;
+}
+.diplomaFeaturesContent{
+    color: #ff9900;
+    font-size: 16px;
+}
+
+.diplomaMainContent{
+    background-color: rgb(255, 255, 255);
+    padding: 100px 0;
+}
+
+.icon{
+    font-size: 0.65rem;
+}
+
+.linkLog{
+    color: #ff9900;
+}
+
+.mainContentContainer{
+    width: 1170px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+.mainContentSite{
+    width: 100% !important;
+    max-width: none !important;
+    float: none !important;
+}
+.mainContentSite::after{
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.mainContentContainer::before{
+    clear: both;
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.innerContent{
+    position: relative;
+    z-index: 1;
+}
+.innerContent {
+    font-size: 16px;
+    color: grey;
+    line-height: 1.5;
+}
+.edrpaymenttable{
+    margin: 0 0 20px;
+}
+.edrpaymenttable th , .edrpaymenttable td{
+    padding: 14px 20px ;
+    text-align: left;
+}
+.edrpaymenttable th {
+    border-width: 0 1px 1px 0;
+    font-weight: bold;
+}
+.innerContentWrap table , .innerContentWrap th , .innerContentWrap td {
+    border: 1px solid #d4d4d4;
+}
+.innerContentWrap table{
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    table-layout: fixed;
+    width: 100%;
+}
+.innerContentWrap input{
+    font-family: "Montserrat", sans-serif;
+    color: #808080;
+    background-color: transparent;
+    padding: 15px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eaeaea;
+    font-size: 14px;
+    /* margin-bottom: 20px; */
+    text-shadow: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all ease 0.3s;
+}
+
+.innerContent button{
+    background-color: #ff9900;
+    margin: 20px 0px;
+    padding: 15px 20px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4%;
+}

@@ -1,0 +1,196 @@
+.examcontainer{
+    background-image: url('../../../public/images/section-bg3.jpg')!important;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.examcontent{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: left;
+}
+.examwrapper{
+    width: 1000px;
+    text-align: left;
+}
+.exampcontentholder{
+    width: 400px;
+    padding:4rem 0px;
+}
+.exampcontentholder p{
+    font-size: 15px;
+    line-height: 1.8;
+    color: gray;
+}
+.exampcontentholder h2{
+    color: rgb(61, 61, 61);
+    font-size: 2rem;
+}
+
+/* Exams & Certifications ‍System style */
+
+.examCertifications{
+    background-image: url('../../../public/images/section-bg6.jpg')!important;;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.examCertificationsContainer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.examCertificationsWrapper{
+    width: 1000px;
+    text-align: center;
+    padding-top: 40px;
+    background-color: white;
+}
+.topcontent{
+    padding-top: 2rem;
+}
+.topcontent h2 {
+    color: white;
+}
+
+
+.bodyContent3{
+    display: flex;
+    flex-direction: row;
+    /* height: 400px; */
+}
+
+.edukulfancyimg{
+    position: relative;
+}
+.edukulfancyimgbg{
+    transform: translate(20px, 20px);
+    opacity: 1;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 0;
+    background-color: #4582ff;
+}
+.edukulfancyimgholder{
+    opacity: 1;
+    position: relative;
+    transform: translate(-15px, -15px);
+}
+.edukulfancyimgholder Image{
+    width: 100%;
+}
+.inner{
+    border-style: solid;
+    border-color: transparent;
+    z-index: 1;
+    position: relative;
+    transition: all ease-out .2s;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* padding-top: 7%; */
+    /* padding-bottom: 7%; */ 
+    padding: 9% 9%;
+}
+.card1content{
+   
+    width: 90%;
+    /* padding-left: 6px; */
+    font-size: 16px;
+    color: grey;
+    text-align: left;
+    line-height: 1.9;
+}
+
+.bodyContent{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.bodyContent2{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.btnContent1,.btnContent2{
+    padding: 11px 38px;
+    position: relative;
+    border-radius: 5px;
+    background-color: #ecf2ff;
+    /* color: #616b84; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin: 0.4rem 0.6rem;
+    cursor: pointer;
+}
+.examCertifications button{
+    background-color: #ecf2ff;
+    border: none;
+    cursor: pointer;
+    color: #4e4e4e;
+}
+
+@media only screen and (max-width:1040px) {
+    .exampcontentholder{
+        padding:3rem 2rem;
+    }
+}
+@media only screen and (max-width:802px){
+    .card1content{
+        width: 80%;
+        padding: 1rem 5rem;
+        text-align: center;
+    }
+    .card1content p{
+        padding: 1rem 2rem;
+    }
+    .edukulfancyimgbg{
+        display: none;
+    }
+    .card1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .bodyContent2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding:1rem 28rem;
+    }
+    .bodyContent{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+        padding:1rem 28rem;
+        
+    }
+
+    .btnContent1,.btnContent2{
+    
+    background-color: #ecf2ff;
+    /* color: #616b84; */
+    width: 330px;
+    margin: 0.1rem 0.1rem;
+}
+.examCertifications button{
+    /* background-color: #ecf2ff; */
+    border: none;
+    cursor: pointer;
+    color: #4e4e4e;
+    /* width: 170px; */
+}
+}

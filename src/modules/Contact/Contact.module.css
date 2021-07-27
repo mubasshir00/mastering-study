@@ -1,0 +1,55 @@
+
+.clearfix::before , .edukulContainer::before{
+    clear: both;
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+#featuredTitle{
+    background-image: url('../../../public/images/contact3.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 260px;
+}
+#featured-title {
+    background-color: #f8f8f8;
+    border-style: solid;
+}
+
+.edukulContainer {
+    width: 1170px;
+    margin: 0 auto;
+    max-width: 90%;
+
+}
+.innerWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 60px;
+
+}
+.col1{
+    color: #ff9900;
+}
+
+.col2{
+    color: #ff9900;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width:486px)
+{
+    .innerWrap{
+        flex-direction: column;
+    }
+}

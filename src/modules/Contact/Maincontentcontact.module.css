@@ -1,0 +1,136 @@
+#mainContent{
+    padding:0;
+    height: 744px;
+    
+}
+.clearfix::before , .clearfix::after , .edukulContainer::before , .edukulContainer::after  {
+    clear: both;
+    display: table;
+    line-height: 0;
+    content: "";
+}
+#siteContent{
+    width: 100% !important;
+    max-width: none !important;
+    float: none !important;
+}
+#innerContent{
+    position: relative;
+    z-index: 1;
+}
+.hentry:first-child {
+    margin-top: 0;
+}
+.hentry {
+    position: relative;
+}
+.wpbRow{
+    max-width: none;
+    margin-bottom: 0 !important;
+}
+.edukulContainer{
+    width: 1170px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+.rowInner{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.vcColumnContainer{
+    padding-left: 0;
+    padding-right: 0;
+}
+.vcColumnInner{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.vcColumnContainer > .vcColumnInner{
+    box-sizing: border-box;
+    width: 100%;
+}
+.vcColumnInner::before , .vcColumnInner::after{
+    content: " ";
+    display: table;
+}
+.wpbWrapper .clearfix::after{
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.edukulContentBox{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.wrapContentHead h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.wrap{
+    width: 600px;
+    max-width: 90%;
+}
+
+.wrapContentInput input{
+    height: 50px;
+    margin-bottom: 30px;
+    width: 270px;
+    max-width: 90%;
+    padding: 24px;
+    font-weight: 600;
+    color: #42495b;
+    font-size: 16px;
+    
+    margin: 10px;
+    border: 2px solid #f4f4f4;
+    /* width: 100%; */
+}
+#mainContent input[type="text"]{
+    background-color: transparent;
+    text-shadow: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all ease 0.3s;
+}
+#mainContent textarea{
+    width: 564px;
+    font-weight: 600;
+    color: #42495b;
+    font-size: 16px;
+    padding: 20px;
+    max-width: 90%;
+}
+.note{
+    text-align: left;
+    max-width: 630px;
+}
+.wrap button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ff9900;
+    padding: 18px 38px;
+    border-radius: 5px;
+    display: inline-block;
+    -webkit-appearance: none;
+    transition: all ease 0.3s;
+
+    line-height: 1;
+    cursor: pointer;
+    border: 0;
+}
+
+.address{
+    background-image: url('../../../public/images/section-bg1.jpg') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    
+}
+

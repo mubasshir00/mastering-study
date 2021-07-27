@@ -1,0 +1,164 @@
+.features{
+    background-image: url('../../../public/images/car.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 230px;
+}
+.content{
+    /* width: 1400px; */
+    /* max-width: 90%; */
+
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.contentwrapper{
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    color: #ff9900;
+    font-weight: 500;
+    font-size: 23px;
+    width: 50%;
+    text-align: left;
+}
+.rightcontent{
+    color: #ff9900;
+    font-size: 16px;
+
+    padding: 23px 0;
+}
+.icontop{
+    font-size: 0.5rem;
+}
+
+.whitespace{
+    height: 60px;
+}
+.contentwithlogo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.left{
+    
+    width: 900px;
+    max-width: 90%;
+}
+.contentwraper{
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 90%;
+    text-align: left;
+    font-size: 13px;
+}
+.contentwraper p{
+    color: grey;
+    line-height: 1.8;
+}
+
+.leftcontenticon{
+    font-size: 25px;
+    color: #ff9900;
+    margin-right: 0.3rem;
+    margin-top: 0.7rem;
+}
+.content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+}
+.leftcontent h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+.leftcontent{
+    display: flex;
+    flex-direction: row;
+}
+.rightcontent2 {
+    display: flex;
+    flex-direction: row;
+    font-weight: 100;
+    /* text-align: left; */
+}
+.rightcontent2 h2{
+    font-size: 20px;
+    font-weight: 300;
+    /* text-align: left; */
+}
+
+.midHead{
+   
+     align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.midHeadContent{
+     align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+     width: 700px;
+    max-width: 90%;
+    font-size: 17px;
+    line-height: 1;
+}
+.midHeadContent p{
+    font-size: 14px;
+    color: grey;
+}
+
+.lowdiv{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.lowdivcontainer{
+    width: 1000px;
+    max-width: 90%;
+}
+.pwrapper{
+    background-color: #e6e6e6;
+    border-left: 3px solid #ff9900;
+    font-size: 17px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 13rem;
+    padding-left: 1rem;
+    color: grey;
+}
+.lowcontent{
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+@media only screen and (max-width:658px) {
+    .content1{
+        flex-direction: column;
+    }
+    .pwrapper{
+        padding-right: 0.2rem;
+    }
+}
+@media only screen and (max-width:528px) {
+    .contentwrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .features{
+        height: 300px;
+    }
+}

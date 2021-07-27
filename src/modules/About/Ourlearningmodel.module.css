@@ -1,0 +1,256 @@
+.clearfix::before{
+    clear: both;
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.features{
+    background-image: url('./images/learning.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 230px;
+}
+.content{
+    /* width: 1400px; */
+    /* max-width: 90%; */
+
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.contentwrapper{
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    color: #ff9900;
+    font-weight: 500;
+    font-size: 29px;
+}
+.rightcontent{
+    color: #ff9900;
+    font-size: 16px;
+
+    padding: 23px 0;
+}
+
+
+/* main content */
+.rowinner{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.maincontentwraper{
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-image: url('../../../public/images/aboutimages/sectionimg.jpg'); */
+}
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 7%;
+    /* padding-bottom: 7%; */
+}
+
+.nothingbackground{
+    transform: translate(20px, 20px);
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 0;
+    background-color: #4582ff;
+    
+}
+.imageholder{
+    transform: translate(-15px, -15px);
+}
+.card1content{
+    max-width: 877px;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 14px;
+    color: grey;
+}
+.edukulfancyimg{
+    position: relative;
+}
+.edukulfancyimgbg{
+    transform: translate(20px, 20px);
+    opacity: 1;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 0;
+    background-color: #4582ff;
+}
+.edukulfancyimgholder{
+    opacity: 1;
+    position: relative;
+    transform: translate(-15px, -15px);
+}
+.edukulfancyimgholder Image{
+    width: 100%;
+}
+.inner{
+    border-style: solid;
+    border-color: transparent;
+    z-index: 1;
+    position: relative;
+    transition: all ease-out .2s;
+}
+
+
+/* card2  */
+.card2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 5%;
+    line-height: 0.3;
+}
+.card2 p{
+    color: grey;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.edukulicon{
+    display: inline-block;
+}
+.icon{
+    color: #ff9900;
+    text-align: center;
+    display: inline-block;
+    transition: all ease 0.3s;
+}
+.anchor{
+    display: inline-block;
+    /* speak: none; */
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    border: none;
+}
+
+.innerCard1{
+    text-align: left;
+    padding: 1rem;
+}
+
+
+/* card 3  */
+.card3content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card3left{
+    text-align: left;
+}
+.card3left h2{
+    font-size: 2rem;
+}
+.card3right{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.card3right button{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ff9900;
+    padding: 16px 28px;
+    border-radius: 5px;
+    display: inline-block;
+    -webkit-appearance: none;
+    transition: all ease 0.3s;
+
+    line-height: 1;
+    cursor: pointer;
+    border: 0;
+}
+.card3right button:hover{
+    background-color: rgb(0, 0, 97);
+}
+
+.randomspace{
+    height: 90px;
+}
+
+
+/* studentpartner */
+.card4{
+    background-image: url('/public/images/testimonials-bg.png')
+}
+
+@media screen and (max-width: 678px){
+    .contentwrapper{
+        flex-direction: column;
+    }
+    .card1{
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 7%;
+    /* padding-bottom: 7%; */
+     }
+     .edukulfancyimgbg{
+         display: none;
+     }
+     .card1content{
+         text-align: center;
+     }
+     .card2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-top: 5%;
+        line-height: 0.3;
+     }
+     .innerCard1{
+         text-align: center;
+         font-size: 19px;
+     }
+     .desc{
+         text-align: left;
+     }
+     .card3left{
+         text-align: center;
+     }
+     .card3right{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+   }
+     .card3content{
+         flex-direction: column;
+     }
+     .card3right button{
+        width: 170px;
+     }
+}

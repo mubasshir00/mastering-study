@@ -1,0 +1,136 @@
+#topbar, #topbar a {
+    color: #ffffff;
+}
+#topbar{
+    font-size: 15px;
+    position: relative;
+    z-index: 1;
+    background-color: #4582ff;
+}
+#topbarinner {
+    padding: 2px 0;
+}
+.edukulcontainer{
+    width: 1170px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+#topbar::after {
+    opacity: 1;
+}
+#topbar::after {
+    background-color: #4582ff;
+}
+#topbar::after {
+    background-color: transparent;
+    content: "";
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all ease 0.3s;
+}
+.edukulcontainer::before{
+    clear: both;
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.topBarInnerWrap {
+    display: table;
+    width: 100%;
+}
+.topBarContent {
+    display: table-cell;
+    margin: 2px 0;
+    text-align: left;
+    vertical-align: middle;
+    width: 60%;
+}
+.content {
+    position: relative;
+    display: inline-block;
+    margin-right: 32px;
+    padding-left: 26px;
+}
+.content::before {
+    color: rgb(255, 255, 255, 0.7);
+    content: "\e924";
+}
+.content::before {
+    font-family: "CoreIcon";
+    position: absolute;
+    left: 1px;
+    top: 0;
+}
+.content::after {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 2px;
+    width: 1px;
+    height: 10px;
+    background-color: rgba(138, 153, 192, 0.4);
+}
+
+.topBarSocials {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    width: 40%;
+}
+.icons {
+    margin-left: 5px;
+    display: inline-block;
+}
+.icons a {
+    color: rgb(255, 255, 255, 0.7);
+
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* [class^="core-icon-"], [class*=" core-icon-"] {
+    font-family: 'CoreIcon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+.screenReaderText {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+
+    word-wrap: normal!important;
+    padding: 0;
+    margin: -1px;
+    clip-path: inset(50%);
+    border: 0;
+}
+
+@media only screen and (max-width:1254px){
+    #topbar{
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width:1178px){
+    #topbar{
+        display: none;
+    }
+}

@@ -1,0 +1,212 @@
+.mentor{
+    background-image: url('../../../public/images/featured-title-bg-1.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height:240px;
+}
+.featuesWrap{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+.featuresContainer{
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    color: #ff9900;
+    font-weight: 500;
+    font-size: 46px;
+}
+.mentorFeaturesContent{
+    color: #ff9900;
+    font-size: 16px;
+}
+.icon{
+    font-size: 0.65rem;
+}
+
+
+.whymasteringcontent{
+    padding: 3rem 3rem;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+}
+.inner{
+    width: 30%;
+}
+.edukulfancyimg{
+    position: relative;
+}
+.edukulfancyimgbg{
+    transform: translate(20px, 20px);
+    opacity: 1;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 0;
+    background-color: #4582ff;
+}
+.edukulfancyimgholder{
+    opacity: 1;
+    position: relative;
+    transform: translate(-15px, -15px);
+}
+.edukulfancyimgholder Image{
+    width: 100%;
+ 
+}
+.AuthorizedPartnerContainer{
+    width: 1000px;
+    max-width: 90%;
+}
+.AuthorizedPartner{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.card1content{
+    width: 70%;
+}
+.card1content h2{
+    color: grey;
+}
+.card1content p {
+    color: grey;
+    font-size: 13px;
+}
+
+/* join the Mastering Study */
+.joinMasteringStudy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joinMasteringStudyContent{
+    width: 700px;
+    text-align: center;
+    max-width: 90%;
+}
+.joinMasteringStudyContainer{
+    text-align: center;
+}
+
+.joinMasteringStudyDetails{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom:3rem ;
+}
+.joinMasteringStudyDetailsContent{
+    width: 1000px;
+    max-width: 90%;
+}
+
+.lowIcon{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.icons{
+    color: #ff9900;
+    font-size: 29px;
+}
+.joinDescription{
+    padding: 0rem 0.5rem;
+}
+.joinDescription button{
+    padding: 0.5rem 1rem;
+    background-color: #ff9900;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.ReadytoBecome{
+    background-image: url('../../../public/images/landing-section-bg3-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.ReadytoBecomeContent{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.ReadytoBecomeContentContainer{
+    /* width: 1200px; */
+    /* max-width: 90%; */
+   padding-left: 15%;
+   padding-right: 30%;
+}
+.ReadytoBecomeContentContainer p{
+    font-size: 14px;
+    line-height: 1.5;
+    color: gray;
+}
+
+.Informationforcandidates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.InformationContainer{
+    width: 1000px;
+    max-width: 90%;
+}
+.InformationWrapper{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    padding: 1rem 0rem;
+}
+.InformationWrapper p{
+    color: gray;
+}
+
+@media only screen and (max-width:920px) {
+.card1{
+    flex-direction: column;
+}
+.inner{
+    width: 100%;
+}
+.edukulfancyimgbg{
+    display: none;
+}
+.whymasteringcontent{
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.card1content{
+    width: 100%;
+}
+.ReadytoBecomeContentContainer{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+}
+
+@media only screen and (max-width:560px) {
+.InformationWrapper{
+    flex-direction: column;
+}
+.lowIcon{
+    grid-template-columns: repeat(1,1fr);
+}
+}

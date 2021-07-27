@@ -1,0 +1,249 @@
+.clearfix::before{
+    clear: both;
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.diploma{
+    background-image: url('../../../public/images/featured-title-bg-1.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height:240px;
+}
+
+.featuesWrap{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.featuresContainer{
+    
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    color: #ff9900;
+    font-weight: 500;
+    font-size: 46px;
+}
+.diplomaFeaturesContent{
+    color: #ff9900;
+    font-size: 16px;
+}
+
+.diplomaMainContent{
+    background-color: rgb(255, 255, 255);
+    padding: 100px 0;
+}
+
+.icon{
+    font-size: 0.65rem;
+}
+
+.mainContentContainer{
+    width: 1170px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+.mainContentSite{
+    width: 100% !important;
+    max-width: none !important;
+    float: none !important;
+}
+.mainContentSite::after{
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.mainContentContainer::before{
+    clear: both;
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.innerContent{
+    position: relative;
+    z-index: 1;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.innerContent Image{
+    vertical-align: middle;  
+}
+
+.info{
+    padding: 17px 0;
+    margin: 22px 0 0;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.infoContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.itemList{
+    display: flex;
+    flex-direction: row;
+}
+.rightContent{
+    display: flex;
+    flex-direction: row;
+}
+.innerInfoContent{
+    display: grid;
+    grid-template-columns: repeat(4,0.4fr);
+}
+.iconGrad{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin-top: 0.2rem;
+    margin-right: 0.9rem;
+}
+.col{
+    /* margin-top: -15px; */
+    font-size: 0.6rem;
+    margin-right: 0.8rem;
+    line-height: 0.3;
+}
+.collist{
+    text-align: center;
+    color: gold;
+    line-height: 0.1;
+}
+.reviewContent{
+    padding-left: 29px;
+    font-size: 0.6rem;
+    color: black;
+}
+.collist{
+    font-size: 0.7rem;
+    /* margin-right: 2.8rem; */
+    line-height: 0.1;
+}
+
+.rightContent{
+    color: blue;
+}
+.rightContent button{
+    font-family: "Montserrat", sans-serif;
+    background-color: blue;
+    margin: 10px 28px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 4%;
+}
+.rightContent button:hover{
+    background-color: rgb(20, 20, 20);
+}
+
+.colitem{
+    display: flex;
+    flex-direction: row;
+}
+
+.desCol{
+    display: flex;
+    flex-direction: row;
+    width: 870px;
+    color: grey;
+}
+.desCol p{
+    font-size: 12px;
+    line-height: 1.9;
+    padding-bottom: 1rem;
+}
+.desCol span{
+    font-weight: bold
+}
+.desCol h3{
+    font-weight: bold;
+    font-size: 13px;
+}
+.detailsDescription{
+    width: 70%;
+    padding-right: 2rem;
+}
+.academicProg{
+    list-style-type: none;
+    line-height: 0.4;
+}
+
+.card{
+    background-color: rgb(228, 228, 228);
+    padding: 0.2rem 1rem;
+}
+.card span{
+    padding-right: 0.7rem;
+}
+.card p:not(:last-child){
+    border-bottom: 1px solid grey;
+}
+.academicProg{
+    line-height: 0.2;
+    
+}
+.academicProg p{
+    padding-bottom: .1px;
+    line-height: 0.9;
+}
+
+@media only screen and (max-width:918px) {
+    .featuresContainer{
+        flex-direction: column;
+    }
+    .diplomaFeaturesContent{
+        display: flex;
+        flex-direction: column;
+    }
+    .icon{
+        display: none;
+    }
+    .innerContentWrap Image{
+        width: 100%;
+  /* object-fit: cover;
+  object-position: bottom; */
+    }
+    .desCol{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .detailsDescription{
+        width: 100%;
+    }
+    .infoContent{
+        flex-direction: column;
+        text-align: center;
+    }
+    .rightContent{
+        text-align: center;
+    }
+    .innerInfoContent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .detailsDescription ul{
+        list-style-type: none;
+    }
+}
